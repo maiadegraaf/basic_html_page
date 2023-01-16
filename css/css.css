@@ -18,6 +18,10 @@ html {
     font-family: "Iowan Old Style";
 }
 
+::selection {
+    background: var(--air-superiority-blue);
+}
+
 /* unvisited link */
 a:link {
     color: var(--midnight-green-eagle-green);
